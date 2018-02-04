@@ -1,0 +1,4 @@
+MYQTDIR = /usr/lib/qt
+LFLAGS = -L$(MYQTDIR)/lib -L/usr/X11R6/lib
+LIBS = -lqt-mt -lGL -lGLU
+
